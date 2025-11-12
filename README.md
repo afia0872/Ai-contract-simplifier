@@ -67,11 +67,11 @@ A picture is worth a thousand words. Here's the app in action:
 
 *(This is the most important part of a README! It's highly recommended to record a short GIF of the app's workflow and add it here.)*
 
-`![App Demo GIF](https://your-repository/path-to/demo.gif)`
+`![App Demo GIF](http://localhost:3000/)`
 
 | Login Screen | File Upload | Summary View |
 | :---: | :---: | :---: |
-| `![Login Screen](https://your-repository/path-to/screenshot-login.png)` | `![File Upload](https://your-repository/path-to/screenshot-upload.png)` | `![Summary View](https://your-repository/path-to/screenshot-summary.png)` |
+| `![Login Screen](hooks/1.png)` | `![File Upload](hooks/3.png)` | `![Summary View](hooks/4.png)` |
 
 ---
 
@@ -119,6 +119,7 @@ graph TD
 
 ---
 
+
 ## ⚙️ Getting Started (Frontend)
 
 To get a local copy of the frontend up and running, follow these simple steps.
@@ -146,7 +147,7 @@ To get a local copy of the frontend up and running, follow these simple steps.
     ```sh
     npm run dev
     ```
-5.  Open [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal) to view it in the browser.
+
 
 > **Note:** The application is currently running in a mocked-backend mode. All API calls are simulated with a delay to mimic a real network environment. To connect to a real backend, update the API endpoints in `src/services/geminiService.ts`.
 
@@ -174,9 +175,7 @@ Contributions of all kinds are welcome! Whether you're a developer, a designer, 
 4.  **Push to the branch** (`git push origin feature/AmazingFeature`).
 5.  **Open a Pull Request.**
 
-Please read our [**Contributing Guidelines**](./CONTRIBUTING.md) for more details on our code standards and the development process, and our [**Code of Conduct**](./CODE_OF_CONDUCT.md) to understand our community standards.
 
----
 
 ## 📄 License
 
@@ -185,5 +184,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 <div align="center">
-Made with ❤️ by [Your Name]
+Made with ❤️ by Afia 
 </div>
