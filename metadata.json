@@ -1,0 +1,5 @@
+{
+  "name": "AI Contract Simplifier",
+  "description": "Upload or paste a legal document, and this tool uses AI to highlight key terms, potential risks, and your obligations in simple, easy-to-understand English. It simplifies complex legal jargon for non-lawyers.",
+  "requestFramePermissions": []
+}
