@@ -67,11 +67,11 @@ A picture is worth a thousand words. Here's the app in action:
 
 *(This is the most important part of a README! It's highly recommended to record a short GIF of the app's workflow and add it here.)*
 
-`![App Demo GIF](http://localhost:3000/)`
+Open [http://localhost:5173](http://localhost:3000/)
 
 | Login Screen | File Upload | Summary View |
 | :---: | :---: | :---: |
-| `![Login Screen](hooks/1.png)` | `![File Upload](hooks/3.png)` | `![Summary View](hooks/4.png)` |
+| ![Login Screen](hooks/1.png) | ![File Upload](hooks/3.png)| ![Summary View](hooks/4.png) |
 
 ---
 
@@ -92,13 +92,8 @@ This project is designed as a modern full-stack application, combining a dynamic
 
 The application follows a decoupled, service-oriented architecture. The React frontend is a standalone Single-Page Application (SPA) that interacts with the Spring Boot backend through a secure REST API. This ensures a clean separation of concerns and allows for independent scaling.
 
-```mermaid
+mermaid
 graph TD
-    A[Users] -->|Browser| B(React SPA Frontend);
-    B -->|REST API Calls (HTTPS)| C{Spring Boot Backend};
-    C -->|JPA/Hibernate| D[(PostgreSQL/MySQL DB)];
-    C -->|HTTP Client| E(AI/NLP Service - Gemini API);
-    C -->|File Parsing| F[Apache Tika / PDFBox];
 
     subgraph "Client-Side (Vercel/Netlify)"
         B
@@ -115,7 +110,7 @@ graph TD
     style C fill:#6DB33F,stroke:#333,stroke-width:2px
     style D fill:#336791,stroke:#333,stroke-width:2px
     style E fill:#4285F4,stroke:#333,stroke-width:2px
-```
+
 
 ---
 
